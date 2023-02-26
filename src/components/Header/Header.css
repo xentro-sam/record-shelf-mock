@@ -1,0 +1,40 @@
+#header {
+    background-color: #38497E;
+    color: white;
+    height: 8vh;
+}
+
+#header-title {
+    font-size: 1.5em;
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+#header-title > span {
+    font-weight: 600;
+}
+
+#page-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 92vh;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+#sync-button {
+    background-color: #38497E;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 40px auto;
+    width: 200px;
+}
