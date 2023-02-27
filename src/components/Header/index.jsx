@@ -9,17 +9,6 @@ export default function Header() {
         My <span>Record</span> Shelf
         </div>
       </header>
-      <div id="page-info">
-        <div>
-          <div>
-            :&#40;&#40;
-          </div>
-          <div>
-            seems a bit empty in here...
-          </div>
-          <div id='sync-button'>sync</div>
-        </div>
-      </div>
     </div>
   );
 }
