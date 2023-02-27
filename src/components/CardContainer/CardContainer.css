@@ -1,0 +1,22 @@
+#card-container {
+    background-color: #F5F5F5;
+    box-sizing: border-box;
+    min-height: 92vh;
+    max-width: 70vw;
+    margin: 0 auto;
+    padding: 3% 10%;
+}
+
+#card-container-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#genre-icon > img {
+    padding-top: 80%;
+}
+
+#card-container-title {
+    font-size: 4rem;
+    font-weight: 600;
+}

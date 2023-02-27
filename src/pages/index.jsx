@@ -1,3 +1,4 @@
 import Home from './Home';
+import AllSongs from './AllSongs';
 
-export {Home};
+export {Home, AllSongs};
