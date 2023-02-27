@@ -9,9 +9,7 @@
 
 #card-info {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
 }
 
 #card-title {
@@ -32,4 +30,16 @@
 
 .dark {
     background-color: #ABABAB;
+}
+
+#card-like {
+    position: relative;
+}
+
+#card-like-count {
+    left: 0;
+    position:absolute;
+    text-align:center;
+    top: 10%;
+    width: 100%
 }

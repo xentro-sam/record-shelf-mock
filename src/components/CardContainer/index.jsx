@@ -36,7 +36,7 @@ export default function CardContainer() {
         </div>
       </div>
       <div id='card-container-body'>
-        {cards ? cards.map((card) => {
+        {cards.length ? cards.map((card) => {
           return <Card key={card.id} {...card} color={cardColor()} />;
         },
         ) : (<div>Loading...</div>)}
