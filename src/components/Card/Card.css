@@ -1,0 +1,35 @@
+#card {
+    box-sizing: border-box;
+    padding: 2% 4%;
+    width: 31%;
+    margin: 0.7%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #3f3f3f;
+}
+
+#card-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#card-title {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+}
+
+#card-pic > img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.light {
+    background-color: #DFDFDF;
+}
+
+.dark {
+    background-color: #ABABAB;
+}
